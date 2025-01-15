@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FarmersLink</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="nav-container">
+			<img class="icon" src="agri_icons/leaf.svg" alt="leaf">
+			<div class="logo">FarmersLink</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="hero">
+		<div class="container">
+			<h1>Innovative and Impactful Data-Driven Solutions</h1>
+			<p>FarmersLink is a data-driven platform designed to address Botswana's agricultural challenges
+				by creating an accessible, user-friendly network</p>
+		</div>
+	</section>
+
+	<!-- Features Section -->
+	<section class="features">
+		<div class="container">
+			<div class="feature-card">
+				<h3>Leverage Technology to Bridge Gaps</h3>
+				<p>Utilize advanced technologies like AI and
+					neural networks to enhance decision-making and problem-solving in Botswana’s
+					agricultural sector.</p>
+			</div>
+			<div class="feature-card">
+				<h3>Strengthen Pest and Disease Management with Accessible Solutions:</h3>
+				<p>Develop
+					affordable and innovative AI-powered tools for early detection, monitoring, and
+					containment of pests and diseases in crops and livestock.</p>
+			</div>
+			<div class="feature-card">
+				<h3>Enhance Food Security</h3>
+				<p>Improve Botswana's agricultural resilience by reducing
+					losses from pests and diseases, ensuring a reliable and sustainable food supply.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Solutions Section -->
+	<section class="solutions">
+		<div class="container">
+			<h2>Our App Solutions</h2>
+			<div class="solutions-grid">
+				<div class="solution-card">
+					<h3>Livestock Health and Disease Management</h3>
+					<p>This component utilises AI-powered
+						diagnostics, allowing farmers to upload photos, videos, or keywords to identify diseases,
+						nutrient deficiencies, and possible treatments. The solution also includes disease outbreak
+						alerts
+						and provides access to veterinarians for effective containment.</p>
+				</div>
+				<div class="solution-card">
+					<h3>Pest Monitoring and Containment</h3>
+					<p>Using a neural network-powered app, the platform
+						processes images or video frames to detect pests efficiently. The app includes a vast dataset
+						covering various pest species, their life stages, and conditions. It provides real-time alerts
+						for
+						pest identification, action protocols, and veterinary notifications for timely inspections,
+						ensuring effective pest management and preventing infestations.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	</div>
+	<div class="footer-bottom">
+		<p>&copy; 2025 TechAmigos</p>
+	</div>
+	</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
