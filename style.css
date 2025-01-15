@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gloria+Hallelujah&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.6;
   color: #333;
 }
@@ -29,61 +30,40 @@ body {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   height: 70px;
   padding: 0 20px;
 }
 
 .logo {
-  font-size: 24px;
+  font-family: "Gloria Hallelujah", serif;
+  text-align: center;
+  font-size: 45px;
   font-weight: bold;
-  color: #1a73e8;
+  color: rgb(119, 193, 8);
 }
 
-.nav-links {
-  display: flex;
-  list-style: none;
-}
-
-.nav-links li {
-  margin-left: 30px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-.sign-in-btn {
-  background: #1a73e8;
-  color: #fff !important;
-  padding: 10px 20px;
-  border-radius: 4px;
-}
-
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  margin: 2px 0;
-  transition: 0.3s;
+.icon {
+  font-family: "Gloria Hallelujah", serif;
+  width: 45px; /* Adjust size of the icon as needed */
+  height: 45px; /* Adjust size of the icon as needed */
+  margin-right: 8px; /* Add space between the icon and the logo */
 }
 
 /* Hero Section */
 .hero {
-  background: #f8f9fa;
+  background-image: linear-gradient(
+      rgba(108, 161, 111, 0.7),
+      rgba(76, 84, 76, 0.7)
+    ),
+    url("agri_pics/maize_crops.jpeg"); /* Add your image path here */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
   padding: 120px 0 80px;
   text-align: center;
 }
-
 .hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
@@ -91,25 +71,10 @@ body {
 }
 
 .hero p {
-  font-size: 18px;
-  color: #666;
+  font-size: 24px;
+  color: white;
   max-width: 800px;
   margin: 0 auto 30px;
-}
-
-.cta-button {
-  background: #1a73e8;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  font-size: 18px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.cta-button:hover {
-  background: #1557b0;
 }
 
 /* Features Section */
@@ -161,103 +126,6 @@ body {
   margin-bottom: 15px;
 }
 
-.learn-more {
-  color: #1a73e8;
-  text-decoration: none;
-  font-weight: 500;
-  display: inline-block;
-  margin-top: 15px;
-}
-
-/* Stats Section */
-.stats {
-  padding: 80px 0;
-  text-align: center;
-}
-
-.stats h2 {
-  margin-bottom: 50px;
-  font-size: 36px;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
-}
-
-.stat-card h3 {
-  font-size: 36px;
-  color: #1a73e8;
-  margin-bottom: 10px;
-}
-
-/* Footer */
-.footer {
-  background: #1a1a1a;
-  color: #fff;
-  padding: 80px 0 20px;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
-  margin-bottom: 60px;
-}
-
-.footer-column h3 {
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-.footer-column ul {
-  list-style: none;
-}
-
-.footer-column ul li {
-  margin-bottom: 10px;
-}
-
-.footer-column a {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-.footer-column a:hover {
-  opacity: 1;
-}
-
-.social-links {
-  display: flex;
-  gap: 15px;
-}
-
-.social-icon {
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.8;
-}
-
-.social-icon:hover {
-  opacity: 1;
-}
-
-.download-btn {
-  background: #1a73e8;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-}
-
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
@@ -280,14 +148,6 @@ body {
     flex-direction: column;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .nav-links li {
-    margin: 10px 0;
   }
 
   .hero h1 {
